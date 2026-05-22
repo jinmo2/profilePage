@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="홍길동의 개발자 포트폴리오입니다. 접근성, 반응형 화면, 명확한 사용자 경험을 중심으로 웹을 만듭니다.">
+  <title>홍길동 | 개발자 포트폴리오</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#hero" aria-label="홍길동 홈">홍길동</a>
+    <nav class="site-nav" aria-label="주요 탐색">
+      <a href="#about">소개</a>
+      <a href="#skills">기술</a>
+      <a href="#projects">프로젝트</a>
+      <a href="#experience">경험</a>
+      <a href="#contact">연락</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-band" id="hero">
+      <div class="section-inner hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">사용자에게 집중하는 제품 팀과 함께합니다</p>
+          <h1>홍길동</h1>
+          <p class="role">프론트엔드 개발자</p>
+          <p class="hero-summary">
+            접근성 높은 반응형 웹 인터페이스를 만듭니다. 읽기 쉬운 코드,
+            실용적인 구조, 처음 사용하는 사람도 이해하기 쉬운 경험을 중요하게 생각합니다.
+          </p>
+          <div class="hero-actions" aria-label="주요 링크">
+            <a class="button primary" href="#projects">프로젝트 보기</a>
+            <a class="button secondary" href="mailto:your.email@example.com">연락하기</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="개발자 프로필 요약">
+          <div class="profile-topline">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>포트폴리오 요약</span>
+          </div>
+          <div class="avatar" aria-hidden="true">홍</div>
+          <dl class="profile-list">
+            <div>
+              <dt>관심 분야</dt>
+              <dd>반응형 화면</dd>
+            </div>
+            <div>
+              <dt>기술</dt>
+              <dd>마크업, 스타일, 자바스크립트</dd>
+            </div>
+            <div>
+              <dt>근무 형태</dt>
+              <dd>원격 협업 가능</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-band" id="about">
+      <div class="section-inner two-column">
+        <div>
+          <p class="section-kicker">소개</p>
+          <h2>차분하고 쓰기 쉬운 웹 제품을 만듭니다.</h2>
+        </div>
+        <div class="prose">
+          <p>
+            이 문단을 간단한 자기소개로 바꾸세요. 어떤 개발자인지, 어떤 문제를
+            해결해 왔는지, 팀에서 어떤 방식으로 기여하는지 담으면 좋습니다.
+          </p>
+          <p>
+            이 템플릿은 빌드 과정 없이 깃허브 페이지에 바로 올릴 수 있도록
+            단순하게 만들었습니다. 모바일과 데스크톱 모두에서 정돈된 인상을 줍니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band muted" id="skills">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">기술</p>
+          <h2>오래 쓰기 좋은 화면을 만드는 실용적인 역량.</h2>
+        </div>
+        <div class="skill-grid" aria-label="기술 분류">
+          <article class="skill-card">
+            <h3>프론트엔드</h3>
+            <p>시맨틱 마크업, 스타일링, 자바스크립트, 반응형 배치, 접근성, 브라우저 디버깅.</p>
+          </article>
+          <article class="skill-card">
+            <h3>제품 화면</h3>
+            <p>디자인 시스템, 컴포넌트 설계, 입력 폼, 대시보드, 상호작용 상태.</p>
+          </article>
+          <article class="skill-card">
+            <h3>전달과 운영</h3>
+            <p>깃허브 페이지, 정적 사이트, 문서화, 성능 점검, 품질 확인과 인수인계.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band" id="projects">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">프로젝트</p>
+          <h2>대표 작업</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-media project-media-one" aria-hidden="true"></div>
+            <div class="project-content">
+              <p class="project-type">웹 앱</p>
+              <h3>프로젝트 하나</h3>
+              <p>
+                해결한 문제, 사용한 사람, 만든 결과를 짧게 설명하는 문장으로
+                이 내용을 바꾸세요.
+              </p>
+              <ul class="tag-list" aria-label="사용한 기술">
+                <li>마크업</li>
+                <li>스타일</li>
+                <li>자바스크립트</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/your-username/project-one">저장소</a>
+                <a href="https://your-demo-link.example.com">데모 보기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media project-media-two" aria-hidden="true"></div>
+            <div class="project-content">
+              <p class="project-type">대시보드</p>
+              <h3>프로젝트 둘</h3>
+              <p>
+                작업 시간 단축, 정보 구조 개선, 전환율 향상처럼 측정 가능한
+                성과를 중심으로 설명을 바꾸세요.
+              </p>
+              <ul class="tag-list" aria-label="사용한 기술">
+                <li>리액트</li>
+                <li>데이터 연동</li>
+                <li>사용자 경험</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/your-username/project-two">저장소</a>
+                <a href="https://your-demo-link.example.com">데모 보기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media project-media-three" aria-hidden="true"></div>
+            <div class="project-content">
+              <p class="project-type">정적 사이트</p>
+              <h3>프로젝트 셋</h3>
+              <p>
+                어떤 기술적 결정을 했고, 그 선택이 프로젝트에 왜 적절했는지
+                설명하는 문장으로 바꾸세요.
+              </p>
+              <ul class="tag-list" aria-label="사용한 기술">
+                <li>깃허브 페이지</li>
+                <li>성능</li>
+                <li>접근성</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/your-username/project-three">저장소</a>
+                <a href="https://your-demo-link.example.com">데모 보기</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band muted" id="experience">
+      <div class="section-inner two-column">
+        <div>
+          <p class="section-kicker">경험</p>
+          <h2>최근 역할과 성장 과정.</h2>
+        </div>
+        <div class="timeline" aria-label="경험 타임라인">
+          <article class="timeline-item">
+            <p class="timeline-date">2025년 - 현재</p>
+            <h3>프론트엔드 개발자, 회사명</h3>
+            <p>현재 맡은 업무, 제품 영역, 가장 크게 기여한 내용을 적으세요.</p>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">2023년 - 2025년</p>
+            <h3>웹 개발자, 이전 회사명</h3>
+            <p>참여한 프로젝트, 협업 방식, 기술적으로 책임졌던 부분을 적으세요.</p>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">이전</p>
+            <h3>학습, 개인 프로젝트, 오픈소스</h3>
+            <p>교육, 부트캠프, 자격증, 개인 작업을 정리하는 공간으로 사용하세요.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band contact" id="contact">
+      <div class="section-inner contact-inner">
+        <div>
+          <p class="section-kicker">연락</p>
+          <h2>명확하고 쓸모 있는 것을 함께 만들어요.</h2>
+          <p>
+            배포하기 전에 아래 링크를 실제 이메일, 깃허브, 링크드인 주소로 바꾸세요.
+          </p>
+        </div>
+        <div class="contact-links" aria-label="연락 링크">
+          <a href="mailto:your.email@example.com">이메일 보내기</a>
+          <a href="https://github.com/your-username">깃허브</a>
+          <a href="https://www.linkedin.com/in/your-profile">링크드인</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>저작권 2026 홍길동. 깃허브 페이지용으로 제작했습니다.</p>
+  </footer>
+</body>
+</html>
